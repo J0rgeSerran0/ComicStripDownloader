@@ -1,12 +1,12 @@
 # Comic Strip Downloader
-Project writen in [.NET 5](https://dotnet.microsoft.com/download/dotnet/5.0)
+Project writen in [**.NET 5**](https://dotnet.microsoft.com/download/dotnet/5.0)
 
 
 ## Proposal
 
 Experimental project to show you:
-- How to use the TypeSafe Enum Pattern in c#
-- How to use the HtmlAgilityPack library to scrape a content for a web page (in this case a picture)
+- How to use the **Type-Safe Enum Pattern** in c#
+- How to use the [**HtmlAgilityPack**](https://www.nuget.org/packages/HtmlAgilityPack/) library to scrape a content for a web page (in this case a picture)
 
 
 ## Parts of the project
