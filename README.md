@@ -45,9 +45,9 @@ Use of the **Type-Safe Enum Pattern** to have all the details needed about a Com
 
 The use of this pattern avoid possible problems when we are programming with **Enum** value type
 
-*There are two interesting static methods inside of this object*
+*There are two interesting **static methods** inside of this object*
 
-#### *IReadOnlyCollection<ComicStripType> GetAll()*
+#### *IReadOnlyCollection&lt;ComicStripType&gt; GetAll()*
 *Get the list of all Comic Strip's. Each item, can be used as parameter to call to the service and get the Comic Strip Url*
 
 > The values received in the collection are:
