@@ -92,9 +92,9 @@ After this, *response* has the result of this task.
 
 You should check if *response.HasErrors* is **true** or **false**.
 
-If is **false**, you could get the Url in *response.Source*.
+If is **false**, you can get the Url in *response.Source*.
 
-If is **true**, you could get the Error Details.
+If is **true**, you can get the Error Details.
 
 ```csharp
 if (response.HasErrors)
