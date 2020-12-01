@@ -11,7 +11,7 @@ Experimental project to show you:
 
 ## Parts of the project
 
-*ComicStripDownloader* class library
+**ComicStripDownloader** *class library*
 
 
 ### **IComicStripService**
