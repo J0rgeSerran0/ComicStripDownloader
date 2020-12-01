@@ -45,6 +45,28 @@ Use of the **Type-Safe Enum Pattern** to have all the details needed about a Com
 
 The use of this pattern avoid possible problems when we are programming with **Enum** value type
 
+*There are two interesting static methods inside of this object*
+
+#### *IReadOnlyCollection<ComicStripType> GetAll()*
+*Get the list of all Comic Strip's. Each item, can be used as parameter to call to the service and get the Comic Strip Url*
+
+> The values received in the collection are:
+
+> **string Name** of the Comic Strip
+
+> **string Key** for the Comic Strip
+
+> **string Url** used internally to get the Comic Strip
+
+> **string Parameter** used internally to prepare the Url of the Comic Strip
+
+> **string HtmlImageClass** used internally to get the Url of the Comic Strip using *HtmlAgilityPack*
+
+> **string IsInChildNodes** used internally to define if the Url is in a child node or not, and that will be used using *HtmlAgilityPack*
+
+#### *ComicStripType FindBy(string key)*
+*Find the Comic Strip details for a Comic Strip Key*
+
 
 ### **ComicStripService**
 Implementation of **IComicStripService**
